@@ -4,9 +4,9 @@ import { connect } from 'cloudflare:sockets';
 const DEFAULT_FROM_NAME = '论坛管理员';
 
 const SMTP_CONFIG = {
-    hostname: 'smtp.exmail.qq.com',
+    hostname: 'smtp.qq.com',
     port: 465,
-    user: 'i@2x.nz',
+    user: 'xiaohuihuib@qq.com,
 };
 
 function getSMTPPassword(env?: { SMTP_PASS?: string }): string {
